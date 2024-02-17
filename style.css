@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+.header{
+    background-image: linear-gradient(rgb(255, 240, 108),rgb(255, 174, 0),rgba(255, 240, 108))
+}

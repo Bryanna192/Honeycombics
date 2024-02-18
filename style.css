@@ -18,6 +18,75 @@
     margin-left: 30px;
 }
 
-.logo{
-    
+.menu{
+    width: 200%;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(110, 97, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .3 ease;
+}
+
+ul li a:hover{
+    color:rgb(78, 54, 26)
+}
+
+.search-box{
+    float: right;
+    width: 210px;
+    background:rgb(228, 177, 66);
+    height: 30px;
+    padding: 8px;
+    padding-top: 15px;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-right: 14%;
+}
+
+.search-box .search-txt{
+    width: 190px;
+    padding: 6 px;
+}
+
+.search-btn{
+    text-decoration: none;
+    background: rgb(245, 194, 83);
+    color: black;
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 8;
+}
+
+.search-txt{
+   border: none;
+   background: none;
+   outline: none;
+   float: left;
+   color: black;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: .6px;
 }

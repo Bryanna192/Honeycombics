@@ -5,5 +5,9 @@
 }
 
 .header{
-    background-image: linear-gradient(rgb(255, 240, 108),rgb(255, 174, 0),rgba(255, 240, 108))
+    background-image: linear-gradient(rgb(255, 240, 108),rgb(255, 174, 0),rgba(255, 240, 108)), url(Honeycomb.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
 }

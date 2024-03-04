@@ -16,15 +16,28 @@ body {
 }
 
 header {
-    position: fixed;
+    /* position: flex;
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 20px 100px;
+    width: 100%; */
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: center; */
+    /* z-index: 99; */
+    text-align: center;
+}
+
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 99;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.Logo {
+    height: 90px;
+    max-width: auto;
 }
 
 .navigation a {
@@ -74,6 +87,7 @@ header {
     background: rgb(77, 52, 0);
     color: white;
 }
+
 
 .wrapper {
     position: relative;

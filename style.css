@@ -16,28 +16,15 @@ body {
 }
 
 header {
-    /* position: flex;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%; */
-    /* display: flex; */
-    /* justify-content: space-between;
-    align-items: center; */
-    /* z-index: 99; */
-    text-align: center;
-}
-
-.container {
+    width: 100%;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    flex-direction: column;
-}
-
-.Logo {
-    height: 90px;
-    max-width: auto;
+    z-index: 99;
 }
 
 .navigation a {
